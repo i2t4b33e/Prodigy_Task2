@@ -39,7 +39,7 @@ def decrypt_image(image_path, key, output_path):
   image.save(output_path)
 
 # Example usage
-image_path = r"C:\Users\vickyy\Downloads\ThinkstockPhotos-72967326.jpg"
+image_path = r"C:\Users\vickyy\Downloads\input.jpg"
 key = "S"  # Replace with your desired key (single character for simplicity)
 encrypted_path = r"C:\Users\vickyy\Downloads\encrypted_image.jpg"
 decrypted_path = r"C:\Users\vickyy\Downloads\decrypted_image.jpg"
